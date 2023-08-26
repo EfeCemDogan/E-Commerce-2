@@ -1,0 +1,16 @@
+{
+  "name": "shopsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss/ -o css/ --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha3",
+    "node-sass": "^8.0.0"
+  }
+}
