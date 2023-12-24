@@ -7,6 +7,26 @@ import p6_img from "./product_6.png";
 import p7_img from "./product_7.png";
 import p8_img from "./product_8.png";
 import p9_img from "./product_9.png";
+import p10_img from "./1.jpeg";
+import p11_img from "./2.jpeg";
+import p12_img from "./3.jpeg";
+import p13_img from "./4.jpeg";
+import p14_img from "./5.jpeg";
+import p15_img from "./6.jpeg";
+import p16_img from "./7.jpeg";
+import p17_img from "./8.jpeg";
+
+import a1_img from "./a1.webp";
+import a2_img from "./a2.webp";
+import b1_img from "./b1.webp";
+import k1_img from "./k1.webp";
+import k2_img from "./k2.webp";
+import m1_img from "./m1.webp";
+import m2_img from "./m2.webp";
+import s1_img from "./s1.webp";
+import s2_img from "./s2.webp";
+
+
 
 
 let all_product = [
@@ -298,6 +318,142 @@ let all_product = [
     new_price: 85.0,
     old_price: 120.5,
   },
+  {
+    id: 37,
+    name: "Apple Watch Starlight Aluminum Case and Sport Band",
+    category: "watch",
+    image: p10_img,
+    new_price: 500.0,
+    old_price: 800.5,
+  },
+  {
+    id: 38,
+    name: "Apple Watch Starlight Aluminum Case and Sport Band",
+    category: "watch",
+    image: p11_img,
+    new_price: 850.0,
+    old_price: 1200.5,
+  },
+  {
+    id: 39,
+    name: "Apple Watch Starlight Aluminum Case and Sport Band",
+    category: "watch",
+    image: p12_img,
+    new_price: 600.0,
+    old_price: 1000.5,
+  },
+  {
+    id: 40,
+    name: "Apple Watch Starlight Aluminum Case and Sport Band",
+    category: "watch",
+    image: p13_img,
+    new_price: 1000.0,
+    old_price: 1500.0,
+  },
+  {
+    id: 41,
+    name: "Apple Watch Starlight Aluminum Case and Sport Band",
+    category: "watch",
+    image: p14_img,
+    new_price: 500.0,
+    old_price: 800.5,
+  },
+  {
+    id: 42,
+    name: "Apple Iphone X PRO 64GB Starlight Aluminum Case",
+    category: "phone",
+    image: p15_img,
+    new_price: 850.0,
+    old_price: 1200.5,
+  },
+  {
+    id: 43,
+    name: "Apple Iphone X PRO 64GB Starlight Aluminum Case",
+    category: "phone",
+    image: p16_img,
+    new_price: 600.0,
+    old_price: 1000.5,
+  },
+  {
+    id: 44,
+    name: "Apple Iphone X PRO 64GB Starlight Aluminum Case",
+    category: "phone",
+    image: p17_img,
+    new_price: 1000.0,
+    old_price: 1500.0,
+  },
+  {
+    id: 45,
+    name: "Sport machine hand",
+    category: "sport",
+    image: s1_img,
+    new_price: 10.0,
+    old_price: 17.0,
+  },
+  {
+    id: 46,
+    name: "Run Band",
+    category: "sport",
+    image: s2_img,
+    new_price: 1200.0,
+    old_price: 1600.0,
+  },
+  {
+    id: 47,
+    name: "Selpak Toilet pape",
+    category: "market",
+    image: m1_img,
+    new_price: 10.0,
+    old_price: 12.0,
+  },
+  {
+    id: 48,
+    name: "Domestos",
+    category: "market",
+    image: m2_img,
+    new_price: 10.0,
+    old_price: 13.0,
+  },
+  {
+    id: 49,
+    name: "LASH SENSA TIONAL",
+    category: "cosmetic",
+    image: k1_img,
+    new_price: 100.0,
+    old_price: 150.0,
+  },
+  {
+    id: 50,
+    name: "The Purest",
+    category: "cosmetic",
+    image: k2_img,
+    new_price: 100.0,
+    old_price: 150.0,
+  },
+  {
+    id: 51,
+    name: "Crystal pink Gold",
+    category: "accessory",
+    image: a1_img,
+    new_price: 140.0,
+    old_price: 160.0,
+  },
+  {
+    id: 52,
+    name: "Silver and Crystal",
+    category: "accessory",
+    image: a2_img,
+    new_price: 100.0,
+    old_price: 170.0,
+  },
+  {
+    id: 53,
+    name: "Atatürk NUTUK",
+    category: "book",
+    image: b1_img,
+    new_price: 10.0,
+    old_price: 15.0,
+  },
 ];
 
-export default all_product;
+export default all_product

@@ -1,14 +1,14 @@
 import React from 'react'
-import './Popular.css'
-import data_product from '../Assets/data'
+import './PopolarTecnology.css'
+import data_product from '../Assets/Popular_Tecnology'
 import Item from '../Item/Item'
 
-const Popular = () => {
+const PopularTecnology = () => {
   return (
     <section class="pt-3">
         <div class="container">
             <header>
-                <h3 class="mb-md-3 mb-0">Kaçmaz Fırsatlar</h3>
+                <h3 class="mb-md-3 mb-0">Fırsat Teknoloji</h3>
             </header>
 
             <div class="row">
@@ -27,4 +27,4 @@ const Popular = () => {
   )
 }
 
-export default Popular
+export default PopularTecnology

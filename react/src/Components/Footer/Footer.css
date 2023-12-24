@@ -1,0 +1,83 @@
+/* EFE CEM DOGAN */
+/* Footer */
+.footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(27deg, rgba(2,0,36,1) 42%, rgba(9,9,121,1) 82%, rgba(0,212,255,1) 94%);
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+
+    /* Position*/
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+    
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    font-size:0.8em;
+}
+
+.footer .row ul{
+    width:100%;
+    padding: 0;
+}
+
+/* Footer text */
+.footer .footer-text {
+    color: gray;
+}
+
+/* Footer links */
+.footer .footer-links a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+
+.footer .footer-links ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+    
+.footer .footer-links a:hover{
+    color:#fff;
+}
+
+/* Footer icons */
+.footer .footer-icons a{
+    text-decoration:none;
+    color: #fff;
+}
+
+.footer .footer-icons ul li{
+    display:inline-block;
+    margin:0px 15px;
+}
+
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+
+
+.footer .footer-icons .fa-twitter:hover{
+    color:#1DA1F2;
+    transition:0.5s;
+    transform: translateY(-0.4rem);
+}
+
+.footer .footer-icons .fa-instagram:hover{
+    color:#C13584;
+    transition:0.5s;
+    transform: translateY(-0.4rem);
+}
+
+.footer .footer-icons .fa-facebook-f:hover{
+    color:#4267B2;
+    transition:0.5s;
+    transform: translateY(-0.4rem);
+}
+    

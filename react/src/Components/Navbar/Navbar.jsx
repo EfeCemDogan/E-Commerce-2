@@ -67,52 +67,57 @@ const Navbar = () => {
 
                 <div   class="collapse navbar-collapse" id="navbar_main">
                     <ul class="navbar-nav">
-                        <li onClick = {()=>{setMenu("Elektronik")}} class="nav-item">
-                          <Link to='/Elektronik'>
-                            <a href="" class={`nav-link ${menu === "Elektronik" ? "active" : ""}`}>Elektronik</a>
+                        <li onClick = {()=>{setMenu("women")}} class="nav-item">
+                          <Link to='/women'>
+                              <a href="" class={`nav-link ${menu === "women" ? "active" : ""}`}>Kadın</a>
                           </Link>
                         </li>
-                        <li onClick = {()=>{setMenu("Moda")}} class="nav-item">
-                          <Link to='/Moda'>
-                              <a href="" class={`nav-link ${menu === "Moda" ? "active" : ""}`}>Moda</a>
-                          </Link>
-                        </li>
-                        <li onClick = {()=>{setMenu("Kozmetik")}} class="nav-item">
-                          <Link to='/Kozmetik'>
-                              <a href="" class={`nav-link ${menu === "Kozmetik" ? "active" : ""}`}>Kozmetik</a>
-                          </Link>
-                        </li>
-                        <li onClick = {()=>{setMenu("Spor")}} class="nav-item">
-                          <Link to='/Spor'>
-                              <a href="" class={`nav-link ${menu === "Spor" ? "active" : ""}`}>Spor</a>
-                          </Link>
-                        </li>
-                        <li onClick = {()=>{setMenu("Market")}} class="nav-item">
-                          <Link to='/Market'>
-                              <a href="" class={`nav-link ${menu === "Market" ? "active" : ""}`}>Market</a>
+                        <li onClick = {()=>{setMenu("men")}} class="nav-item">
+                          <Link to='/men'>
+                              <a href="" class={`nav-link ${menu === "men" ? "active" : ""}`}>Erkek</a>
                           </Link>
                         </li>
                         <li onClick = {()=>{setMenu("Kitap")}} class="nav-item">
-                          <Link to='/Kitap'>
-                              <a href="" class={`nav-link ${menu === "Kitap" ? "active" : ""}`}>Kitap</a>
+                          <Link to='/kids'>
+                              <a href="" class={`nav-link ${menu === "Kitap" ? "active" : ""}`}>Çocuk</a>
+                          </Link>
+                        </li>
+                        <li onClick = {()=>{setMenu("phone")}} class="nav-item">
+                          <Link to='/phone'>
+                              <a href="" class={`nav-link ${menu === "phone" ? "active" : ""}`}>Telefon</a>
+                          </Link>
+                        </li>
+                        <li onClick = {()=>{setMenu("watch")}} class="nav-item">
+                          <Link to='/watch'>
+                              <a href="" class={`nav-link ${menu === "watch" ? "active" : ""}`}>Saat</a>
+                          </Link>
+                        </li>
+                        <li onClick = {()=>{setMenu("spor")}} class="nav-item">
+                          <Link to='/sport'>
+                              <a href="" class={`nav-link ${menu === "spor" ? "active" : ""}`}>Spor</a>
+                          </Link>
+                        </li>
+                        <li onClick = {()=>{setMenu("market")}} class="nav-item">
+                          <Link to='/market'>
+                              <a href="" class={`nav-link ${menu === "market" ? "active" : ""}`}>Market</a>
                           </Link>
                         </li>
                         <li class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Diğer Kategoriler</a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <Link to='/d1'>
-                                      <a href="" class="dropdown-item">1</a>
+                                    <Link to='/cosmetic'>
+                                      <a href="" class="dropdown-item">Kozmetik</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to='/d2'>
-                                      <a href="" class="dropdown-item">2</a>
+                                    <Link to='/accessory'>
+                                      <a href="" class="dropdown-item">Aksesuar</a>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to='/d3'>
-                                      <a href="" class="dropdown-item">3</a>
+                                    <Link to='/books'>
+                                      <a href="" class="dropdown-item">Kitap</a>
                                     </Link>
                                 </li>
                             </ul>
