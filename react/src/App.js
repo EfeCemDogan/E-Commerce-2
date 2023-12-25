@@ -5,6 +5,7 @@ import ShopCategory from './Pages/ShopCategory';
 
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
+import ErrorPage from './Pages/ErrorPage';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
       <BrowserRouter>
         <Navbar/>
         <Routes>
-          <Route path='/' element={<Shop/>}></Route>
+          <Route path='*' element={<ErrorPage/>} />
+          <Route path='/' element={<Shop/>} />
           <Route path='/men' element={<ShopCategory category="men"/>} />
           <Route path='/women' element={<ShopCategory category="women"/>} />
           <Route path='/kids' element={<ShopCategory category="kid"/>} />
